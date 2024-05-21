@@ -19,5 +19,12 @@
     ],
     "require": {
         "php": "^8.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.16"
+    },
+    "scripts": {
+        "fix": "php-cs-fixer fix --using-cache=no",
+        "fix:dry": "php-cs-fixer fix --using-cache=no --diff --dry-run"
     }
 }

@@ -89,9 +89,6 @@ final class Colors
     }
 
     /**
-     * @param string $name
-     * @param array $arguments
-     * @return mixed
      * @throws BadMethodCallException
      */
     public static function __callStatic(string $name, array $arguments): mixed

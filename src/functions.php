@@ -66,9 +66,6 @@ function getClasses(string $directory, ?string $namespace = null, bool $recursiv
 
 /**
  * Converts a snake_case string to camelCase
- *
- * @param string $string
- * @return string
  */
 function snakeToCamelCase(string $string): string
 {
@@ -77,9 +74,6 @@ function snakeToCamelCase(string $string): string
 
 /**
  * Converts a camelCase string to snake_case
- *
- * @param string $string
- * @return string
  */
 function camelToSnakeCase(string $string): string
 {
@@ -90,6 +84,7 @@ function camelToSnakeCase(string $string): string
  * Generates a psuedo secure UUID
  *
  * @param int $length The length of the UUID
+ *
  * @throws RandomException If a source of secure random data cannot be found
  */
 function generateUuid(int $length = 16): string
