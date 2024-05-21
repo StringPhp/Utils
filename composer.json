@@ -1,0 +1,23 @@
+{
+    "name": "stringphp/utils",
+    "description": "StringPhp utility functions",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StringPhp\\Utils\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Robert Snedeker",
+            "email": "rsnedeker20@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3"
+    }
+}
