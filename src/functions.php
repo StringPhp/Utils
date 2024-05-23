@@ -69,7 +69,7 @@ function getClasses(string $directory, ?string $namespace = null, bool $recursiv
  */
 function snakeToCamelCase(string $string): string
 {
-    return str_replace('_', '', ucwords($string, '_'));
+    return lcfirst(str_replace('_', '', ucwords($string, '_')));
 }
 
 /**
