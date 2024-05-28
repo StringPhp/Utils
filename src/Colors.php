@@ -5,7 +5,7 @@ namespace StringPhp\Utils;
 use BadMethodCallException;
 
 /**
- * Pretty color codes with ANSI escape functions
+ * Color codes with magic ANSI escape functions
  *
  * @method static string RED(string $content)
  * @method static string RED_INVERTED(string $content)
